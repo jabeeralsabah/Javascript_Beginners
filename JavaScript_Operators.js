@@ -18,8 +18,9 @@ console.log(value1>value3);
 console.log(value3<value2);
 console.log(value1<=value3);
 
-//Logical operator -- && , ||
+//Logical operator -- && , ||, !
 console.log(true && false);
 console.log(true || false);
 console.log(false && false);
-
+console.log(!true);
+console.log(!false);
