@@ -1,0 +1,10 @@
+var elmtclass = document.getElementsByClassName("container");
+var elmt = document.querySelector('.container');
+var elmt1 = document.querySelectorAll('.container');
+elmtclass[0].classList.add("bg-primary");
+elmtclass[1].classList.add("style1");
+console.log(elmtclass[0]);
+console.log(elmtclass[1]);
+console.log(elmt);
+console.log(elmt1);
+elmt1[1].classList.add("bg-primary");
